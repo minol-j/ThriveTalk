@@ -1,0 +1,522 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    background-color: #e5e5e5;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    max-width: 1400px;
+    height: 840px;
+    padding-left: 180px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    color: #62d0df;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.one {
+    margin-top: 30px;
+}
+
+.menu__list {
+    display: flex;
+    margin-top: 35px;
+    font-size: 14px;
+    list-style: none;
+    color: #22356f;
+}
+
+.menu__item + .menu__item {
+    padding-left: 25px;
+    z-index: 1;
+}
+
+.menu__link {
+    color: #22356f;
+}
+
+.menu__link:hover {
+    font-weight: bold;
+    border-bottom: 2px solid #22356f;
+    padding: 0 0 15px;
+}
+
+.contact {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 130px;
+    color: white;
+    background-color: #62d0df;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.contact:hover {
+    background-color: #c4e769;
+    color: #ffffff;
+}
+.rec {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.student {
+    top: 0px;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+    /* width: 485px; */
+}
+
+.student {
+    position: absolute;
+    right: 0;
+}
+
+.column__text {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover {
+    background-color: #fab63e;
+    color: #ffffff;
+}
+
+.helping {
+    margin-top: 50px;
+    margin-bottom: 55px;
+    width: 485px;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    font-weight: bold;
+    color: #22356f;
+}
+
+.requared {
+    margin: 0 0 60px 0;
+    text-align: justify;
+    width: 470px;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: -0.035em;
+    font-weight: bold;
+    color: #22356f;
+}
+.btn {
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding: 0;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fab63e;
+    border: none;
+}
+
+.block {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 605px;
+}
+
+.text__girl {
+    background-color: #62d0df;
+    display: flex;
+}
+
+.question {
+    margin-top: 120px;
+    padding-left: 180px;
+    font-size: 32px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.answer {
+    color: #ffffff;
+    margin: 100px 160px 0 180px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.block_about__us {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 480px;
+    background-color: #ffffff;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    margin-top: 150px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 23px;
+    color: #22356f;
+}
+
+.text__about__help {
+    margin: 150px 120px 70px 0;
+    width: 620px;
+    height: 210px;
+    line-height: 34px;
+    text-align: left;
+    color: #22356f;
+}
+
+.prompt {
+    margin: 0;
+    text-align: center;
+    color: #22356f;
+    opacity: 0.5;
+}
+
+.block3 {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.pumping__blocks {
+    padding: 0;
+    display: grid;
+    grid-template-rows: repeat(1, 360px);
+    grid-template-columns: repeat(4, 25%);
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 34px;
+    background: #62d0df;
+}
+
+.pump:hover {
+    box-shadow: 0 5px 4px #00000040;
+}
+
+li {
+    color: #fab63e;
+}
+
+li span {
+    color: #ffffff;
+    margin-top: 90px;
+    width: 255px;
+    border-top: 2px solid #ffffff;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.weight__lifting {
+    background-color: #ffe2de;
+    display: flex;
+    justify-content: center;
+}
+
+.running__spinning {
+    background-color: #c4e769;
+    display: flex;
+    justify-content: center;
+}
+
+.pumping1 {
+    background-color: #62d0df;
+    display: flex;
+    justify-content: center;
+}
+
+.pumping2 {
+    background-color: #0052c1;
+    display: flex;
+    justify-content: center;
+}
+
+.block4 {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 120px;
+    background-color: #ffffff;
+}
+
+.health__blocks {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 960px;
+    text-transform: capitalize;
+    display: grid;
+    grid-template: repeat(2, 2fr) / repeat(3, 3fr);
+}
+
+.physical__health {
+    background-color: #22356f;
+    display: flex;
+    justify-content: center;
+}
+
+.mental__health {
+    background-color: #0052c1;
+    display: flex;
+    justify-content: center;
+}
+.nutrition {
+    background-color: #22356f;
+    display: flex;
+    justify-content: center;
+    background-image: url("/image/berry.png");
+}
+.gymnastics {
+    background-color: #62d0df;
+    display: flex;
+    justify-content: center;
+}
+.crossfit {
+    background-color: #dee1ff;
+    display: flex;
+    justify-content: center;
+}
+
+.aerobics {
+    background-color: #8f00ff;
+    display: flex;
+    justify-content: center;
+}
+
+.span {
+    margin-top: 125px;
+    font-size: 32px;
+    font-weight: bold;
+    width: 380px;
+    border-top: 2px solid #ffffff;
+    padding-top: 30px;
+}
+
+.block__plan {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 480px;
+    color: #22356f;
+    background-color: #ffffff;
+    display: grid;
+    grid-template: repeat(2, 2fr) / repeat(3, 3fr);
+}
+
+.discriprion__plans {
+    width: 330px;
+    margin: 55px 0 0 70px;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.discription {
+    font-size: 16px;
+    opacity: 0.5;
+    text-transform: none;
+}
+
+.mdd__affects {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 800px;
+    display: flex;
+    color: #22356f;
+}
+
+.man__text {
+    background-color: #ffffff;
+}
+
+.man__text__block {
+    margin: 110px 0 0 110px;
+}
+
+.you__should {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mdd__help {
+    margin: 255px 175px 0 0;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    font-weight: bolder;
+}
+
+.get__help {
+    margin-top: 170px;
+    color: #fab63e;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.thrivetalk {
+    color: #62d0df;
+}
+
+.block6 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 800px;
+    background-color: #22356f;
+}
+
+.contact__us {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ready__smile {
+    margin: 100px 0 0 180px;
+}
+
+.smile {
+    margin-top: 230px;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.discription__smile {
+    margin: 75px 150px 0 0;
+    text-align: left;
+    letter-spacing: -0.005em;
+    font-size: 36px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.get__help {
+    margin: 80px 0 40px 0;
+    text-transform: uppercase;
+    color: #62d0df;
+}
+
+.information__company {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 380px;
+    background: #ffffff;
+}
+
+.woman {
+    height: 380px;
+}
+
+.info {
+    display: flex;
+}
+
+.information {
+    display: grid;
+    grid-template: 380px / repeat(3, 2fr);
+
+    margin-left: 70px;
+}
+
+.end {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 80px;
+    background-color: #62d0df;
+}
+
+.copiright {
+    padding: 30px 900px 28px 180px;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #ffffff;
+}
+
+.some__info__block {
+    width: 200px;
+    margin-right: 85px;
+}
+
+.some_info {
+    margin-top: 100px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356f;
+}
+
+.some__text {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: #22356f;
+    opacity: 0.5;
+}
+
+.mail {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: #006dff;
+}
+
+.some__text__block2 {
+    margin-right: 70px;
+}
